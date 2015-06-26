@@ -1,0 +1,185 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2015, 8:17:40 PM
+    Author     : Nisha
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background: #000;
+
+
+}
+h2, h3, h4, h5, h6 {
+    margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+    padding:0px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color:#000;
+    text-align: center;
+}
+h2 {
+    font-size: 1.3em;
+    color:#fff;
+}
+h3 {
+    font-size: 1.125em;
+    font-weight: bold;
+    color:#fff;
+}
+h4 {
+    font-size: 1em;
+    font-weight: bold;
+}
+h5 {
+    font-size: .75em;
+    color:#fff;
+    font-weight: bold;
+}
+nav ul{
+    margin:0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+nav a {
+    display:block;
+    border-bottom: 1px  solid #fff;
+    margin:0;
+    padding:3px;
+}
+nav a:hover {
+    height:100%;
+}
+header {
+    background-color: #5bb3cb;
+}
+footer {
+    background-color:darkgray;
+    height:40px;
+    bottom:0;
+    width: 360px;
+    margin-top: 100px;
+}
+main {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.logo {
+    position:relative;
+    float: left;
+    margin: auto;
+}
+.tagline {
+    font-size: 1.5em;
+    font-family: Helvetica;
+    color:#FFF;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    margin:24px;
+}
+.caption {
+    font-size: 1em;
+    font-family: Helvetica;
+    color:#FFF;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    margin:24px;
+}
+.container {
+    background-color: #ffffff;
+    width: 360px;
+    height: 640px;
+    margin: 0 auto;
+}
+.lngcontainer {
+    background-color: #5bb3cb;
+    width: 360px;
+    height: 640px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.logobtn {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.lngh1 {
+    font-size: 1.5em;
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+}
+.cntpd {
+    padding:100px 0;
+}
+.button {
+    width:140px;
+    height: 50px;
+    background-color: #5bb3cb;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.button1 {
+    width:140px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.button2 {
+    width:140px;
+    height: 50px;
+    background-color: #db1422;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.button3 {
+    width:140px;
+    height: 50px;
+    background-color: #fff255;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.btn_container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+/*Alignment floats*/
+.aligncenter {
+    display:block;
+    text-align: center;
+    padding:10px;
+
+}
+.alignleft {
+    float:left;
+    padding:0px 10px 0px 15px;
+}
+.alignright {
+    float:right;
+    padding:0px 15px 0px 10px;
+}
+.clearfloat { 
+    clear:both;
+}
