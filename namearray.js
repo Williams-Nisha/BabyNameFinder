@@ -565,7 +565,7 @@
                 top_50_names += '<li><a href="' + baby_names[i].url + '">' +
                         baby_names[i].name + '</a></li><br>';
             } else {
-                console.log("There are no names available.");
+                console.log("There are no top 50 names available.");
             }
             list = "</ul>";
         }
