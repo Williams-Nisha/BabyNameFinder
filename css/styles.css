@@ -74,6 +74,9 @@ main {
     padding-bottom: 40px;
     padding-top: 10px;
 }
+li{
+    list-style: none;
+}
 .logo {
     position:relative;
     float: left;
@@ -100,7 +103,7 @@ main {
 .container {
     background-color: #ffffff;
     width: 360px;
-    height: 640px;
+    height: 100%;
     margin: 0 auto;
 }
 .lngcontainer {
@@ -164,6 +167,14 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+}
+#search {
+    text-align: center;
+    height: 50px;
+    background-color: greenyellow;
+    border-radius: 4px;
+    margin: 10px;
+    padding-top: 15px;
 }
 /*Alignment floats*/
 .aligncenter {
