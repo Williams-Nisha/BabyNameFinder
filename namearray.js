@@ -19,7 +19,7 @@
     baby_names[11] = {name: "Charlotte", sex: "F", url: "landingpage.php", popularity: 10048},
     baby_names[12] = {name: "Harper", sex: "F", url: "landingpage.php", popularity:  9564},
     baby_names[13] = {name: "Sofia", sex: "F", url: "landingpage.php", popularity:  9542},
-    baby_names[14] = {name: "Avery", sex: "F", url: "landingpage.php", popularity:  9517},
+    baby_names[14] = {name: "Avery", sex: "N", url: "landingpage.php", popularity:  9517},
     baby_names[15] = {name: "Elizabeth", sex: "F", url: "landingpage.php", popularity:  9492},
     baby_names[16] = {name: "Amelia", sex: "F", url: "landingpage.php", popularity:  8727},
     baby_names[17] = {name: "Evelyn", sex: "F", url: "landingpage.php", popularity:  8692},
@@ -53,8 +53,8 @@
     baby_names[45] = {name: "Claire", sex: "F", url: "landingpage.php", popularity:  4991},
     baby_names[46] = {name: "Aaliyah", sex: "F", url: "landingpage.php", popularity:  4850},
     baby_names[47] = {name: "Sadie", sex: "F", url: "landingpage.php", popularity:  4823},
-    baby_names[48] = {name: "Riley", sex: "F", url: "landingpage.php", popularity:  4761},
-    baby_names[49] = {name: "Skylar", sex: "F", url: "landingpage.php", popularity:  4732},
+    baby_names[48] = {name: "Riley", sex: "N", url: "landingpage.php", popularity:  4761},
+    baby_names[49] = {name: "Skylar", sex: "N", url: "landingpage.php", popularity:  4732},
     baby_names[50] = {name: "Nora", sex: "F", url: "landingpage.php", popularity:  4708},
     baby_names[51] = {name: "Sarah", sex: "F", url: "landingpage.php", popularity:  4647},
     baby_names[52] = {name: "Hailey", sex: "F", url: "landingpage.php", popularity:  4595},
@@ -62,7 +62,7 @@
     baby_names[54] = {name: "Paisley", sex: "F", url: "landingpage.php", popularity:  4473},    
     baby_names[55] = {name: "Kennedy", sex: "F", url: "landingpage.php", popularity:  4459},
     baby_names[56] = {name: "Ellie", sex: "F", url: "landingpage.php", popularity:  4442},
-    baby_names[57] = {name: "Peyton", sex: "F", url: "landingpage.php", popularity:  4426},
+    baby_names[57] = {name: "Peyton", sex: "N", url: "landingpage.php", popularity:  4426},
     baby_names[58] = {name: "Annabelle", sex: "F", url: "landingpage.php", popularity:  4324},
     baby_names[59] = {name: "Caroline", sex: "F", url: "landingpage.php", popularity:  4307},
     baby_names[60] = {name: "Madelyn", sex: "F", url: "landingpage.php", popularity:  4289},
@@ -70,7 +70,7 @@
     baby_names[62] = {name: "Aubree", sex: "F", url: "landingpage.php", popularity:  4258},
     baby_names[63] = {name: "Lucy", sex: "F", url: "landingpage.php", popularity:  4257},
     baby_names[64] = {name: "Alexa", sex: "F", url: "landingpage.php", popularity:  4227},
-    baby_names[65] = {name: "Alexis", sex: "F", url: "landingpage.php", popularity:  4188},
+    baby_names[65] = {name: "Alexis", sex: "N", url: "landingpage.php", popularity:  4188},
     baby_names[66] = {name: "Nevaeh", sex: "F", url: "landingpage.php", popularity:  4188},
     baby_names[67] = {name: "Stella", sex: "F", url: "landingpage.php", popularity:  4165},
     baby_names[68] = {name: "Violet", sex: "F", url: "landingpage.php", popularity:  4156},
@@ -87,7 +87,7 @@
     baby_names[79] = {name: "Daniel", sex: "M", url: "landingpage.php", popularity:  13829},
     baby_names[80] = {name: "Elijah", sex: "M", url: "landingpage.php", popularity:  13694},
     baby_names[81] = {name: "Benjamin", sex: "M", url: "landingpage.php", popularity:  13687},
-    baby_names[82] = {name: "Logan", sex: "M", url: "landingpage.php", popularity:  13579},
+    baby_names[82] = {name: "Logan", sex: "N", url: "landingpage.php", popularity:  13579},
     baby_names[83] = {name: "Aiden", sex: "M", url: "landingpage.php", popularity:  13296},
     baby_names[84] = {name: "Jayden", sex: "M", url: "landingpage.php", popularity:  12878},
     baby_names[85] = {name: "Matthew", sex: "M", url: "landingpage.php", popularity:  12809},
@@ -127,9 +127,9 @@
     baby_names[119] = {name: "Aaron", sex: "M", url: "landingpage.php", popularity:  7334},
     baby_names[120] = {name: "Charles", sex: "M", url: "landingpage.php", popularity:  7269},
     baby_names[121] = {name: "Connor", sex: "M", url: "landingpage.php", popularity:  7195},
-    baby_names[122] = {name: "Cameron", sex: "M", url: "landingpage.php", popularity:  7013},
+    baby_names[122] = {name: "Cameron", sex: "N", url: "landingpage.php", popularity:  7013},
     baby_names[123] = {name: "Thomas", sex: "M", url: "landingpage.php", popularity:  6972},
-    baby_names[124] = {name: "Jordan", sex: "M", url: "landingpage.php", popularity:  6810},
+    baby_names[124] = {name: "Jordan", sex: "N", url: "landingpage.php", popularity:  6810},
     baby_names[125] = {name: "Jeremiah", sex: "M", url: "landingpage.php", popularity:  6780},
     baby_names[126] = {name: "Nicholas", sex: "M", url: "landingpage.php", popularity:  6713},
     baby_names[127] = {name: "Evan", sex: "M", url: "landingpage.php", popularity:  6667},
@@ -141,7 +141,7 @@
     baby_names[133] = {name: "Josiah", sex: "M", url: "landingpage.php", popularity:  6376},
     baby_names[134] = {name: "Colton", sex: "M", url: "landingpage.php", popularity:  6339},
     baby_names[135] = {name: "Austin", sex: "M", url: "landingpage.php", popularity:  6263},
-    baby_names[136] = {name: "Angel", sex: "M", url: "landingpage.php", popularity:  6255},
+    baby_names[136] = {name: "Angel", sex: "N", url: "landingpage.php", popularity:  6255},
     baby_names[137] = {name: "Jace", sex: "M", url: "landingpage.php", popularity:  6254},
     baby_names[138] = {name: "Dominic", sex: "M", url: "landingpage.php", popularity:  6205},
     baby_names[139] = {name: "Kevin", sex: "M", url: "landingpage.php", popularity:  5859},
@@ -153,7 +153,7 @@
     baby_names[145] = {name: "Maya", sex: "F", url: "landingpage.php", popularity: 3904},
     baby_names[146] = {name: "Piper", sex: "F", url: "landingpage.php", popularity: 3840},
     baby_names[147] = {name: "Alyssa", sex: "F", url: "landingpage.php", popularity: 3798},
-    baby_names[148] = {name: "Taylor", sex: "F", url: "landingpage.php", popularity: 3782},
+    baby_names[148] = {name: "Taylor", sex: "N", url: "landingpage.php", popularity: 3782},
     baby_names[149] = {name: "Eleanor", sex: "F", url: "landingpage.php", popularity: 3704},
     baby_names[150] = {name: "Melanie", sex: "F", url: "landingpage.php", popularity: 3681},
     baby_names[151] = {name: "Naomi", sex: "F", url: "landingpage.php", popularity: 3677},
@@ -163,13 +163,13 @@
     baby_names[155] = {name: "Lydia", sex: "F", url: "landingpage.php", popularity: 3609},
     baby_names[156] = {name: "Brianna", sex: "F", url: "landingpage.php", popularity: 3582},
     baby_names[157] = {name: "Julia", sex: "F", url: "landingpage.php", popularity: 3578},
-    baby_names[158] = {name: "Ashley", sex: "F", url: "landingpage.php", popularity: 3539},
+    baby_names[158] = {name: "Ashley", sex: "N", url: "landingpage.php", popularity: 3539},
     baby_names[159] = {name: "Khloe", sex: "F", url: "landingpage.php", popularity: 3518},
     baby_names[160] = {name: "Madeline", sex: "F", url: "landingpage.php", popularity: 3409},
     baby_names[161] = {name: "Ruby", sex: "F", url: "landingpage.php", popularity: 3383},
     baby_names[162] = {name: "Sophie", sex: "F", url: "landingpage.php", popularity: 3364},
     baby_names[163] = {name: "Alexandra", sex: "F", url: "landingpage.php", popularity: 3288},
-    baby_names[164] = {name: "London", sex: "F", url: "landingpage.php", popularity: 3264},
+    baby_names[164] = {name: "London", sex: "N", url: "landingpage.php", popularity: 3264},
     baby_names[165] = {name: "Lauren", sex: "F", url: "landingpage.php", popularity: 3072},
     baby_names[166] = {name: "Gianna", sex: "F", url: "landingpage.php", popularity: 3061},
     baby_names[167] = {name: "Isabelle", sex: "F", url: "landingpage.php", popularity: 3044},
@@ -177,12 +177,12 @@
     baby_names[169] = {name: "Vivian", sex: "F", url: "landingpage.php", popularity: 3040},
     baby_names[170] = {name: "Hadley", sex: "F", url: "landingpage.php", popularity: 2992},
     baby_names[171] = {name: "Jasmine", sex: "F", url: "landingpage.php", popularity: 2988},
-    baby_names[172] = {name: "Morgan", sex: "F", url: "landingpage.php", popularity: 2984},
+    baby_names[172] = {name: "Morgan", sex: "N", url: "landingpage.php", popularity: 2984},
     baby_names[173] = {name: "Kayla", sex: "F", url: "landingpage.php", popularity: 2982},
     baby_names[174] = {name: "Cora", sex: "F", url: "landingpage.php", popularity: 2945},
     baby_names[175] = {name: "Bailey", sex: "F", url: "landingpage.php", popularity: 2929},
     baby_names[176] = {name: "Kimberly", sex: "F", url: "landingpage.php", popularity: 2883},
-    baby_names[177] = {name: "Reagan", sex: "F", url: "landingpage.php", popularity: 2882},
+    baby_names[177] = {name: "Reagan", sex: "N", url: "landingpage.php", popularity: 2882},
     baby_names[178] = {name: "Hazel", sex: "F", url: "landingpage.php", popularity: 2877},
     baby_names[179] = {name: "Clara", sex: "F", url: "landingpage.php", popularity: 2833},
     baby_names[180] = {name: "Sydney", sex: "F", url: "landingpage.php", popularity: 2831},
@@ -202,15 +202,15 @@
     baby_names[194] = {name: "Makayla", sex: "F", url: "landingpage.php", popularity: 2559},
     baby_names[195] = {name: "Lilly", sex: "F", url: "landingpage.php", popularity: 2550},
     baby_names[196] = {name: "Andrea", sex: "F", url: "landingpage.php", popularity: 2543},
-    baby_names[197] = {name: "Quinn", sex: "F", url: "landingpage.php", popularity: 2539},
+    baby_names[197] = {name: "Quinn", sex: "N", url: "landingpage.php", popularity: 2539},
     baby_names[198] = {name: "Jordyn", sex: "F", url: "landingpage.php", popularity: 2533},
     baby_names[199] = {name: "Adalynn", sex: "F", url: "landingpage.php", popularity: 2512},
     baby_names[200] = {name: "Nicole", sex: "F", url: "landingpage.php", popularity: 2511},
     baby_names[201] = {name: "Delilah", sex: "F", url: "landingpage.php", popularity: 2496},
-    baby_names[202] = {name: "Kendall", sex: "F", url: "landingpage.php", popularity: 2432},
+    baby_names[202] = {name: "Kendall", sex: "N", url: "landingpage.php", popularity: 2432},
     baby_names[203] = {name: "Kinsley", sex: "F", url: "landingpage.php", popularity: 2429},
-    baby_names[204] = {name: "Ariel", sex: "F", url: "landingpage.php", popularity: 2419},
-    baby_names[205] = {name: "Payton", sex: "F", url: "landingpage.php", popularity: 2397},
+    baby_names[204] = {name: "Ariel", sex: "N", url: "landingpage.php", popularity: 2419},
+    baby_names[205] = {name: "Payton", sex: "N", url: "landingpage.php", popularity: 2397},
     baby_names[206] = {name: "Paige", sex: "F", url: "landingpage.php", popularity: 2395},
     baby_names[207] = {name: "Mariah", sex: "F", url: "landingpage.php", popularity: 2383},
     baby_names[208] = {name: "Brooke", sex: "F", url: "landingpage.php", popularity: 2375},
@@ -299,19 +299,19 @@
     baby_names[291] = {name: "Jennifer", sex: "F", url: "landingpage.php", popularity: 1514},
     baby_names[292] = {name: "Tessa", sex: "F", url: "landingpage.php", popularity: 1510},
     baby_names[293] = {name: "Ana", sex: "F", url: "landingpage.php", popularity: 1508},
-    baby_names[294] = {name: "Finley", sex: "F", url: "landingpage.php", popularity: 1498},
+    baby_names[294] = {name: "Finley", sex: "N", url: "landingpage.php", popularity: 1498},
     baby_names[295] = {name: "Melissa", sex: "F", url: "landingpage.php", popularity: 1496},
     baby_names[296] = {name: "Daniela", sex: "F", url: "landingpage.php", popularity: 1486},
     baby_names[297] = {name: "Aniyah", sex: "F", url: "landingpage.php", popularity: 1479},
     baby_names[298] = {name: "Daleyza", sex: "F", url: "landingpage.php", popularity: 1461},
     baby_names[299] = {name: "Keira", sex: "F", url: "landingpage.php", popularity: 1459},
-    baby_names[300] = {name: "Charlie", sex: "F", url: "landingpage.php", popularity: 1432},
+    baby_names[300] = {name: "Charlie", sex: "N", url: "landingpage.php", popularity: 1432},
     baby_names[301] = {name: "Lucia", sex: "F", url: "landingpage.php", popularity: 1421},
     baby_names[302] = {name: "Hope", sex: "F", url: "landingpage.php", popularity: 1412},
     baby_names[303] = {name: "Gabriela", sex: "F", url: "landingpage.php", popularity: 1403},
     baby_names[304] = {name: "Mckenna", sex: "F", url: "landingpage.php", popularity: 1388},
     baby_names[305] = {name: "Brynlee", sex: "F", url: "landingpage.php", popularity: 1387},
-    baby_names[306] = {name: "Parker", sex: "F", url: "landingpage.php", popularity: 1386},
+    baby_names[306] = {name: "Parker", sex: "N", url: "landingpage.php", popularity: 1386},
     baby_names[307] = {name: "Lola", sex: "F", url: "landingpage.php", popularity: 1370},
     baby_names[308] = {name: "Amaya", sex: "F", url: "landingpage.php", popularity: 1349},
     baby_names[309] = {name: "Miranda", sex: "F", url: "landingpage.php", popularity: 1348},
@@ -323,7 +323,7 @@
     baby_names[315] = {name: "Kenzie", sex: "F", url: "landingpage.php", popularity: 1317},
     baby_names[316] = {name: "Iris", sex: "F", url: "landingpage.php", popularity: 1312},
     baby_names[317] = {name: "Jacqueline", sex: "F", url: "landingpage.php", popularity: 1301},
-    baby_names[318] = {name: "Jordan", sex: "F", url: "landingpage.php", popularity: 1300},
+    baby_names[318] = {name: "Azaria", sex: "N", url: "landingpage.php", popularity: 12940},
     baby_names[319] = {name: "Cassidy", sex: "F", url: "landingpage.php", popularity: 1294},
     baby_names[320] = {name: "Vivienne", sex: "F", url: "landingpage.php", popularity: 1289},
     baby_names[321] = {name: "Camille", sex: "F", url: "landingpage.php", popularity: 1280},
@@ -361,7 +361,7 @@
     baby_names[353] = {name: "Olive", sex: "F", url: "landingpage.php", popularity: 1144},
     baby_names[354] = {name: "Madeleine", sex: "F", url: "landingpage.php", popularity: 1138},
     baby_names[355] = {name: "Makenna", sex: "F", url: "landingpage.php", popularity: 1138},
-    baby_names[356] = {name: "Dakota", sex: "F", url: "landingpage.php", popularity: 1136},
+    baby_names[356] = {name: "Dakota", sex: "N", url: "landingpage.php", popularity: 1136},
     baby_names[357] = {name: "Elsa", sex: "F", url: "landingpage.php", popularity: 1131},
     baby_names[358] = {name: "Nova", sex: "F", url: "landingpage.php", popularity: 1121},
     baby_names[359] = {name: "Nadia", sex: "F", url: "landingpage.php", popularity: 1119},
@@ -370,7 +370,7 @@
     baby_names[362] = {name: "Journey", sex: "F", url: "landingpage.php", popularity: 1110},
     baby_names[363] = {name: "Jada", sex: "F", url: "landingpage.php", popularity: 1107},
     baby_names[364] = {name: "Kathryn", sex: "F", url: "landingpage.php", popularity: 1107},
-    baby_names[365] = {name: "Shelby", sex: "F", url: "landingpage.php", popularity: 1101},
+    baby_names[365] = {name: "Shelby", sex: "N", url: "landingpage.php", popularity: 1101},
     baby_names[366] = {name: "Nina", sex: "F", url: "landingpage.php", popularity: 1091},
     baby_names[367] = {name: "Elliana", sex: "F", url: "landingpage.php", popularity: 1089},
     baby_names[368] = {name: "Diana", sex: "F", url: "landingpage.php", popularity: 1088},
@@ -378,7 +378,7 @@
     baby_names[370] = {name: "Alessandra", sex: "F", url: "landingpage.php", popularity: 1078},
     baby_names[371] = {name: "Eloise", sex: "F", url: "landingpage.php", popularity: 1074},
     baby_names[372] = {name: "Nyla", sex: "F", url: "landingpage.php", popularity: 1074},
-    baby_names[373] = {name: "Skyler", sex: "F", url: "landingpage.php", popularity: 1070},
+    baby_names[373] = {name: "Skyler", sex: "N", url: "landingpage.php", popularity: 1070},
     baby_names[374] = {name: "Madilyn", sex: "F", url: "landingpage.php", popularity: 1067},
     baby_names[375] = {name: "Adelynn", sex: "F", url: "landingpage.php", popularity: 1058},
     baby_names[376] = {name: "Miriam", sex: "F", url: "landingpage.php", popularity: 1057},
@@ -427,7 +427,7 @@
     baby_names[419] = {name: "Lincoln", sex: "M", url: "landingpage.php", popularity: 4785},
     baby_names[420] = {name: "Xavier", sex: "M", url: "landingpage.php", popularity: 4726},
     baby_names[421] = {name: "Bentley", sex: "M", url: "landingpage.php", popularity: 4722},
-    baby_names[422] = {name: "Kayden", sex: "M", url: "landingpage.php", popularity: 4691},
+    baby_names[422] = {name: "Kayden", sex: "N", url: "landingpage.php", popularity: 4691},
     baby_names[423] = {name: "Carson", sex: "M", url: "landingpage.php", popularity: 4580},
     baby_names[424] = {name: "Brody", sex: "M", url: "landingpage.php", popularity: 4297},
     baby_names[425] = {name: "Asher", sex: "M", url: "landingpage.php", popularity: 4279},
@@ -510,9 +510,8 @@
     baby_names[502] = {name: "Alan", sex: "M", url: "landingpage.php", popularity: 2490},
     baby_names[503] = {name: "Kaden", sex: "M", url: "landingpage.php", popularity: 2440},
     baby_names[504] = {name: "Jaden", sex: "M", url: "landingpage.php", popularity: 2433},
-    baby_names[505] = {name: "Riley", sex: "M", url: "landingpage.php", popularity: 2429},
-    baby_names[506] = {name: "Jesse", sex: "M", url: "landingpage.php", popularity: 2424},
-    baby_names[507] = {name: "King", sex: "M", url: "landingpage.php", popularity: 2418},
+    baby_names[505] = {name: "Jesse", sex: "N", url: "landingpage.php", popularity: 2424},
+    baby_names[506] = {name: "King", sex: "M", url: "landingpage.php", popularity: 2418},
     console.log("This works!");
     function getBoyNames() {
         var sortBoyNames = boy_names(baby_names);
@@ -523,7 +522,7 @@
         var boy_names="";
         var list = "<ul>";
         for (var i = 0; i < baby_names.length; i++) {
-            if ((baby_names[i].sex) === "M") {
+            if ((baby_names[i].sex) === "M" || (baby_names[i].sex) === "N") {
                 boy_names += '<li><a href="' + baby_names[i].url + '">' +
                         baby_names[i].name + '</a></li><br>';
             } else {
@@ -542,7 +541,7 @@
         var girl_names="";
         var list = "<ul>";
         for (var i = 0; i < baby_names.length; i++) {
-            if ((baby_names[i].sex) === "F") {
+            if ((baby_names[i].sex) === "F" || (baby_names[i].sex) === "N") {
                 girl_names += '<li><a href="' + baby_names[i].url + '">' +
                         baby_names[i].name + '</a></li><br>';
             } else {
@@ -582,7 +581,7 @@ function neutral_names() {
         var neutral_names="";
         var list = "<ul>";
         for (var i = 0; i < baby_names.length; i++) {
-            if ((baby_names[i].sex) === "F" || "M") {
+            if ((baby_names[i].sex) === "N") {
                 neutral_names += '<li><a href="' + baby_names[i].url + '">' +
                         baby_names[i].name + '</a></li><br>';
             } else {
