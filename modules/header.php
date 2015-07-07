@@ -6,9 +6,10 @@
         <nav>
             <ul>
                 <li><a href="/index.php">Home</a></li>
-                <li><a href="/javascript.php">JS Objects</a></li>
-                <li><a href="/dom_manipulation.php">DOM Manipulation</a></li>
-                <li><a href="json.php">JSON</a></li> 
+                <li><a href=# onclick="getBoyNames()">Boy Names</a></li>
+                <li><a href=# onclick="getGirlNames()">Girl Names</a></li>
+                <li><a href=# onclick="getTop50()">Top 50 Names</a></li>
+                <li><a href=# onclick="getGenderNeutral()">Gender Neutral</a></li>
             </ul>   
         </nav>
 
