@@ -282,7 +282,7 @@ li{
     clear:both;
 }
 
-/*Shake Animation for the Click Me Button*/
+/*Pulse Animation for the Click Me*/
 .pulseMain {
   padding: 20px 40px;
   color: #fff;
@@ -292,9 +292,6 @@ li{
   -ms-animation: pulse 2s ease infinite;
   -o-animation: pulse 2s ease infinite;
   animation: pulse 2s ease infinite;
-}
-.pulseMain:hover {
-  color: #4a90a3;
 }
 
 @-webkit-keyframes pulse {
