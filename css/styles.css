@@ -294,7 +294,7 @@ li{
   animation: pulse 2s ease infinite;
 }
 .pulseMain:hover {
-  color: #fff;
+  color: #4a90a3;
 }
 
 @-webkit-keyframes pulse {
