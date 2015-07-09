@@ -39,7 +39,7 @@
                 <p class="lngh1">
                     Baby Name Finder
                 </p>
-                <h3>Click to Start</h3>
+                <h3 class="pulseMain">Click to Start</h3>
                 <img class="logobtn" src="/images/logo.png" alt="baby name logo" onclick="getIndex()">
                 <div id="button" align="center"></div>
             </main>
