@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 
+/*
+ * Gender neutral names source: http://www.babynames1000.com/gender-neutral/
+ */
+
 var baby_names = [];
 baby_names[0] = {name: "Emma", sex: "F", url: "landingpage.php", popularity: 20799},
 baby_names[1] = {name: "Olivia", sex: "F", url: "landingpage.php", popularity: 19674},
@@ -512,6 +516,40 @@ baby_names[503] = {name: "Kaden", sex: "M", url: "landingpage.php", popularity: 
 baby_names[504] = {name: "Jaden", sex: "M", url: "landingpage.php", popularity: 2433},
 baby_names[505] = {name: "Jesse", sex: "N", url: "landingpage.php", popularity: 2424},
 baby_names[506] = {name: "King", sex: "M", url: "landingpage.php", popularity: 2418},
+baby_names[507] = {name: "Landry", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[508] = {name: "Azariah", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[509] = {name: "Oakley", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[510] = {name: "Lennon", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[511] = {name: "Armani", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[512] = {name: "Phoenix", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[513] = {name: "Justice", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[514] = {name: "Casey", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[515] = {name: "Emory", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[516] = {name: "Remy", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[517] = {name: "Amari", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[518] = {name: "River", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[519] = {name: "Milan", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[520] = {name: "Tatum", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[521] = {name: "Rowan", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[522] = {name: "Sage", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[523] = {name: "Jamie", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[524] = {name: "Rory", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[525] = {name: "Harley", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[526] = {name: "Leighton", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[527] = {name: "Landry", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[528] = {name: "Dallas", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[529] = {name: "Remington", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[530] = {name: "Kamryn", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[531] = {name: "Elliot", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[532] = {name: "Zion", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[533] = {name: "Rylan", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[534] = {name: "Karter", sex: "N", url: "landingpage.php", popularity: 2418},
+baby_names[535] = {name: "Kai", sex: "N", url: "landingpage.php", popularity: 2418},
+
+/*
+ * TODO: update popularity for baby_names[507] - [535]
+ */
+ 
 console.log("This works!");
 function getBoyNames() {
     var sortBoyNames = boy_names(baby_names);
