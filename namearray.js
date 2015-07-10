@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 
+/*
+ * Gender neutral names source: http://www.babynames1000.com/gender-neutral/
+ */
+
 var baby_names = [];
         baby_names[0] = {name: "Emma", sex: "F", url: "#", popularity: 20799, description: 'An English name derived from the Old German for "whole" or "universal," popular since the 19th century. Well-known Emmas: the title character in Jane Austen' + 's Emma; actresses Emma Thompson, Emma Stone, and Emma Watson', meaning: "Universal", origin: "German"},
         baby_names[1] = {name: "Olivia", sex: "F", url: "#", popularity: 19674, description: "First used by William Shakespeare for a character in Twelfth Night. It's a feminine form of Oliver, meaning " + "olive tree." + "Well-known Olivias: singer Olivia Newton-John; Olivia Pope in Scandal; the pig in the popular children's book series.", meaning: "olive tree", origin: "Greek"},
@@ -512,11 +516,45 @@ var baby_names = [];
         baby_names[504] = {name: "Jaden", sex: "M", url: "landingpage.php", popularity: 2433},
         baby_names[505] = {name: "Jesse", sex: "N", url: "landingpage.php", popularity: 2424},
         baby_names[506] = {name: "King", sex: "M", url: "landingpage.php", popularity: 2418},
+        baby_names[507] = {name: "Landry", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[508] = {name: "Azariah", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[509] = {name: "Oakley", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[510] = {name: "Lennon", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[511] = {name: "Armani", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[512] = {name: "Phoenix", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[513] = {name: "Justice", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[514] = {name: "Casey", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[515] = {name: "Emory", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[516] = {name: "Remy", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[517] = {name: "Amari", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[518] = {name: "River", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[519] = {name: "Milan", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[520] = {name: "Tatum", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[521] = {name: "Rowan", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[522] = {name: "Sage", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[523] = {name: "Jamie", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[524] = {name: "Rory", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[525] = {name: "Harley", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[526] = {name: "Leighton", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[527] = {name: "Landry", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[528] = {name: "Dallas", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[529] = {name: "Remington", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[530] = {name: "Kamryn", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[531] = {name: "Elliot", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[532] = {name: "Zion", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[533] = {name: "Rylan", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[534] = {name: "Karter", sex: "N", url: "landingpage.php", popularity: 2418},
+        baby_names[535] = {name: "Kai", sex: "N", url: "landingpage.php", popularity: 2418},
+        /*
+         * TODO: update popularity for baby_names[507] - [535]
+         */
+
         console.log("This works!");
         function getBoyNames() {
         var sortBoyNames = boy_names(baby_names);
                 document.querySelector(".btn_container").innerHTML = sortBoyNames;
         }
+
 function boy_names() {
 var boy_names = "";
         var list = "<ul>";
@@ -530,8 +568,8 @@ console.log("There are no boy names available.");
 }
 list = "</ul>";
 }
-var d = document.createElement("div"); // Create a <button> element                               // Append the text to <button>
-        d.id = "search";
+var d = document.createElement("div"); // Create a <button> element                               
+        d.id = "search"; // Append the text to <button>
         d.className = 'aligncenter';
         newlink = document.createElement('a');
         newlink.setAttribute('href', '/');
@@ -650,22 +688,21 @@ xmlhttp.onreadystatechange = function ()
 if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
 {
 document.getElementsByTagName("BODY")[0].innerHTML = xmlhttp.responseText;
-      
 }
 }
 xmlhttp.open("GET", "/description.php", true);
         xmlhttp.send();
         }
 debugger;
-/*function nameDescription() {
-        var nDescription = "";
-        var name = document.getElementById("baby_names[i].name").text;
-        var headline = document.getElementsByTagName("h1")[0].innerHTML = name;
-        for (var i = 0; i < baby_names.length; i++) {
-    if (name === baby_names[i].name) {
-        nDescription += baby_names[i].meaning + '<br>' +
-        baby_names[i].origin + '<br>' + baby_names[i].description;
-    } else {
-        console.log("There are no names available.");
-    } return nDescription;
-}*/
+        /*function nameDescription() {
+         var nDescription = "";
+         var name = document.getElementById("baby_names[i].name").text;
+         var headline = document.getElementsByTagName("h1")[0].innerHTML = name;
+         for (var i = 0; i < baby_names.length; i++) {
+         if (name === baby_names[i].name) {
+         nDescription += baby_names[i].meaning + '<br>' +
+         baby_names[i].origin + '<br>' + baby_names[i].description;
+         } else {
+         console.log("There are no names available.");
+         } return nDescription;
+         }*/
