@@ -5,6 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="This app is a baby name app that we created for our CIT 261 class." >
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Baby Name Finder</title>
         <link type="text/css" media="screen" href="css/styles.css" rel="stylesheet">
         <script>
@@ -22,8 +23,12 @@
 
                 <div class="btn_container aligncenter">
                     <div class="favorites" onclick="viewNames()"><p class="txt">List</p></div>
-                    <div class="description">
-                        <p>Name:<br>Meaning<br>Origin<br></p></div>
+                    <div class="clearfloat"></div>
+                    <div class="babyDetails">
+                        <h4>Description:</h4> <span class="description"></span>
+                        <h4>Meaning:</h4> <span class="meaning"></span> <br>
+                        <h4>Origin:</h4> <span class="origin"></span>
+                    </div>
                     <div class="button2 caption" onclick="deleteName()">Delete Name</div>
                     <div class="button4 caption" onclick="addName()">Add Name</div>
                     <div class="clearfloat"></div>

@@ -5,6 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="This app is a baby name app that we created for our CIT 261 class." >
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Baby Name Finder</title>
         <link type="text/css" media="screen" href="css/styles.css" rel="stylesheet">
         <script>
@@ -22,8 +23,8 @@
                 {
                     if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
                     {
-                        document.getElementsByTagName("BODY")[0].innerHTML =  xmlhttp.responseText;
-                        
+                        document.getElementsByTagName("BODY")[0].innerHTML = xmlhttp.responseText;
+
                     }
                 }
 

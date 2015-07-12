@@ -12,4 +12,5 @@
                 <li class="nav-link"><a href=# onclick="getGenderNeutral()">Gender Neutral</a></li>
             </ul>   
         </nav>
+        <div class="clearfloat"></div>
 
