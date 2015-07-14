@@ -25,9 +25,9 @@
                     <div class="favorites" onclick="viewNames()"><p class="txt">List</p></div>
                     <div class="clearfloat"></div>
                     <div class="babyDetails">
-                        <h4>Description:</h4> <span class="description"></span>
+                        <h4>Description:</h4> <span class="description"></span> <br>
                         <h4>Meaning:</h4> <span class="meaning"></span> <br>
-                        <h4>Origin:</h4> <span class="origin"></span>
+                        <h4>Origin:</h4> <span class="origin"></span> <br>
                     </div>
                     <div class="button2 caption" onclick="deleteName()">Delete Name</div>
                     <div class="button4 caption" onclick="addName()">Add Name</div>
