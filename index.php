@@ -12,7 +12,7 @@
                 <div class="button caption" onclick="getBoyNames()">Boy Names</div>
                 <div class="button1 caption" onclick="getGirlNames()">Girl Names</div>
                 <div class="clearfloat"></div>
-                <div class="button2 caption" onclick="getTop50()">Top 50 Names</div>
+                <div class="button2 caption" onclick="getTop15()">Top 15 Names</div>
                 <div class="button3 caption" onclick="getGenderNeutral()">Gender Neutral</div>
                 <div class="clearfloat"></div>
             </div>
