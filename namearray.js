@@ -19,6 +19,10 @@ var selectedBabyName = {};
         baby_names[7] = {name: "Abigail", sex: "F", url: "#", popularity: 11985, description: "In the Bible, Abigail is King Davids intelligent and beautiful third wife. Because the biblical Abigail describes herself as King Davids handmaid, it's a name often given to ladies maids in literature.", meaning: "The father's joy", origin: "Hebrew"},
         baby_names[8] = {name: "Madison", sex: "F", url: "#", popularity: 10247, description: "From Madde, a medieval girls name short for Madeleine or Maud. Famous Madisons: President James Madison and his wife, Dolley Madison; Madison Avenue, New York City.", meaning: "", origin: "English"},
         baby_names[9] = {name: "Charlotte", sex: "F", url: "#", popularity: 10048, description: "The feminine form of Charles,  It has been a common name for royalty. Well-known Charlottes: novelist Charlotte Brontë; Wilbur's spider friend in Charlottes Web; character in Sex and the City.", meaning: "Petite or Feminine", origin: "French"},
+        baby_names[33] = {name: "Harper", sex: "F", url: "#", popularity: 9564, description: "Originally a last name meaning someone who plays the harp. Well-known Harpers: Harper Lee, author of To Kill a Mockingbird.", meaning: "", origin: ""},
+        baby_names[34] = {name: "Sofia", sex: "F", url: "#", popularity: 9542, description: "Form of Sophia", meaning: "Wisdom", origin: "Italian"},
+        baby_names[35] = {name: "Elizabeth", sex: "F", url: "#", popularity: 9492, description: "From the Hebrew name Elisheba, biblical wife of Aaron. In the New Testament, Elizabeth is the mother of John the Baptist. Well-known Elizabeths: Queen Elizabeth; actress Elizabeth Taylor.", meaning: "Consecrated to God", origin: "Hebrew"},
+        baby_names[36] = {name: "Amelia", sex: "F", url: "#", popularity: 8727, description: "Well-known Amelias: aviator Amelia Earhart; title character in the Amelia Bedelia kids book series.", meaning: "Industrious", origin: "Latin"},
         
         baby_names[10] = {name: "Noah", sex: "M", url: "#", popularity: 19144, description: "Derived from the Hebrew nōach (rest, comfort). The name is borne in the Bible by the patriarch commanded by God to build the ark, upon which he saved his family and two of each creature from the Great Flood. He is seen as the second progenitor of the human race", meaning: "Rest, Peace", origin: "Hebrew"},
         baby_names[11] = {name: "Liam", sex: "M", url: "#", popularity: 18342, description:"Strong-willed warrior and protector. It's a shorter form of the Irish name Uilliam, which originated from the Frankish Willahelm, meaning " + "helmet of will." + "It's also a shortened version of " + "William." + " Well-known Liams: actors Liam Neeson and Liam Hemsworth", meaning:"resolute protection", origin:"Irish"},
@@ -122,7 +126,7 @@ var top_15_names = "";
         var list = "<ul>";
         var headline = document.getElementsByTagName("h1")[0].innerHTML = "Top 15 Baby Names";
         for (var i = 0; i < baby_names.length; i++) {
-if ((baby_names[i].popularity) <= 10000) {
+if ((baby_names[i].popularity) <= 15000) {
 top_15_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
 } else {
