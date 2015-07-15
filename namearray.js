@@ -23,7 +23,6 @@ var selectedBabyName = {};
         baby_names[11] = {name: "Charlotte", sex: "F", url: "#", popularity: 10048, description: "", meaning: "", origin: ""},
         baby_names[12] = {name: "Harper", sex: "F", url: "#", popularity: 9564, description: "", meaning: "", origin: ""},
         baby_names[13] = {name: "Sofia", sex: "F", url: "#", popularity: 9542, description: "", meaning: "", origin: ""},
-
         baby_names[14] = {name: "Avery", sex: "N", url: "#", popularity: 9517, description: "A surname that originated during the Middle Ages from Alfred. Animator and cartoon director,Tex Avery, who created the characters Daffy Duck, Droopy, Chilly Willy, and coined the phrase What's up Doc? for Bugs Bunny, is a namesake. Predominantly used as a girl's name.", meaning: "ruler of the elves", origin: "English"},
         baby_names[15] = {name: "Elizabeth", sex: "F", url: "#", popularity: 9492, description: "", meaning: "", origin: ""},
         baby_names[16] = {name: "Amelia", sex: "F", url: "#", popularity: 8727, description: "", meaning: "", origin: ""},
@@ -546,7 +545,7 @@ var selectedBabyName = {};
         baby_names[533] = {name: "Rylan", sex: "N", url: "landingpage.php", popularity: 2418, description: "", meaning: "", origin: ""},
         baby_names[534] = {name: "Karter", sex: "N", url: "landingpage.php", popularity: 2418, description: "", meaning: "", origin: ""},
         baby_names[535] = {name: "Kai", sex: "N", url: "landingpage.php", popularity: 2418, description: "", meaning: "", origin: ""};
->>>>>>> origin/master
+
         /*
          * TODO: update popularity for baby_names[507] - [535]
          */
