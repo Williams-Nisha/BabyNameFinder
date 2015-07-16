@@ -5,10 +5,10 @@
         <div class="clearfloat"></div>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-link"><a href="/home.php">Home</a></li>
+                <li class="nav-link"><a href="/landingpage.php">Home</a></li>
                 <li class="nav-link"><a href=# onclick="getBoyNames()">Boy Names</a></li>
                 <li class="nav-link"><a href=# onclick="getGirlNames()">Girl Names</a></li>
-                <li class="nav-link"><a href=# onclick="getTop50()">Top 50 Names</a></li>
+                <li class="nav-link"><a href=# onclick="getTop15()">Top 15 Names</a></li>
                 <li class="nav-link"><a href=# onclick="getGenderNeutral()">Gender Neutral</a></li>
             </ul>   
         </nav>

@@ -139,8 +139,8 @@ var d = document.createElement("div"); // Create a <button> element             
         d.appendChild(newlink);
         var element = document.querySelector("main");
         element.appendChild(d);
-        return top_50_names;
-        }
+        return top_15_names;
+}
 
 function getGenderNeutral() {
 var sortGenderNeutral = neutral_names(baby_names);
@@ -202,10 +202,10 @@ document.getElementsByClassName('button2')[0].innerHTML = "Return to Girl Names"
         } else if (selectedBabyName.sex === "N"){
 document.getElementsByClassName('button2')[0].innerHTML = "Return to Gender Neutral Names";
         document.getElementsByClassName('button2')[0].onclick = getGenderNeutral;
-        } else if (selectedBabyName.popularity <= 10000){
-document.getElementsByClassName('button2')[0].innerHTML = "Return to Top 50 Names";
-        document.getElementsByClassName('button2')[0].onclick = getTop50;
-        }
+} else if (selectedBabyName.popularity <= 10000){
+document.getElementsByClassName('button2')[0].innerHTML = "Return to Top 15 Names";
+        document.getElementsByClassName('button2')[0].onclick = getTop15;
+}
 document.getElementsByTagName("h1")[0].innerHTML = selectedBabyName.name;
         document.getElementsByClassName('description')[0].innerHTML = selectedBabyName.description;
         document.getElementsByClassName('meaning')[0].innerHTML = selectedBabyName.meaning;
