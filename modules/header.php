@@ -5,7 +5,7 @@
         <div class="clearfloat"></div>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-link"><a href="/landingpage.php">Home</a></li>
+                <li class="nav-link"><a href="/">Home</a></li>
                 <li class="nav-link"><a href=# onclick="getBoyNames()">Boy Names</a></li>
                 <li class="nav-link"><a href=# onclick="getGirlNames()">Girl Names</a></li>
                 <li class="nav-link"><a href=# onclick="getTop15()">Top 15 Names</a></li>
