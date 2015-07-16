@@ -156,6 +156,10 @@ footer {
     bottom:0;
     width: 360px;
 }
+form {
+    padding-left: 150px;
+    text-align: left;
+}
 main {
     padding-bottom: 40px;
     padding-top: 10px;
@@ -276,7 +280,7 @@ li{
 .babyName {
     float:left;
 }
-.favorites {
+#favorites {
     right:18px;
     top:0;
     background-image: url("/images/heart.png");

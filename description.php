@@ -25,11 +25,11 @@
                     <div id="favorites" onclick="viewNames()"><p class="txt">List</p></div>
                     <div class="clearfloat"></div>
                     <div class="babyDetails"><br>
-                        <h4>Description:</h4> <span class="description"></span><br>
+                            <h4>Description:</h4> <span class="description"></span><br>
 
-                        <h4>Meaning:</h4> <span class="meaning"></span> <br>
+                            <h4>Meaning:</h4> <span class="meaning"></span> <br>
 
-                        <h4>Origin:</h4> <span class="origin"></span><br>
+                            <h4>Origin:</h4> <span class="origin"></span><br>
                     </div>
                     <div class="clearfloat"></div>
                     <h4>Create a list of your favorite names.</h4>
