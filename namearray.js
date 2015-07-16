@@ -9,13 +9,13 @@
  */
 var selectedBabyName = {};
         var baby_names = [];
-        baby_names[0] = {name: "Emma", sex: "F", url: "#", popularity: 20799, description: 'An English name derived from the Old German for "whole" or "universal," popular since the 19th century. Well-known Emmas: the title character in Jane Austen' + 's Emma; actresses Emma Thompson, Emma Stone, and Emma Watson', meaning: "Universal", origin: "German", description: "", meaning: "", origin: ""},
-        baby_names[1] = {name: "Olivia", sex: "F", url: "#", popularity: 19674, description: "First used by William Shakespeare for a character in Twelfth Night. It's a feminine form of Oliver, meaning " + "olive tree." + "Well-known Olivias: singer Olivia Newton-John; Olivia Pope in Scandal; the pig in the popular children's book series.", meaning: "olive tree", origin: "Greek"},
-        baby_names[2] = {name: "Sophia", sex: "F", url: "#", popularity: 18490, description: "From the Greek for " + "wisdom." + " The name was used by European royalty in the Middle Ages. Common variants: Sophie, Sofia. Well-known Sophias: director Sophia Coppola; actresses Sophia Loren and Sofía Vergara.", meaning:"wisdom", origin:"Greek"},
-        baby_names[3] = {name: "Noah", sex: "M", url: "#", popularity: 19144, description: "Derived from the Hebrew nōach (rest, comfort). The name is borne in the Bible by the patriarch commanded by God to build the ark, upon which he saved his family and two of each creature from the Great Flood. He is seen as the second progenitor of the human race", meaning: "Rest, Peace", origin: "Hebrew"},
-        baby_names[4] = {name: "Liam", sex: "M", url: "#", popularity: 18342, description:"Strong-willed warrior and protector. It's a shorter form of the Irish name Uilliam, which originated from the Frankish Willahelm, meaning " + "helmet of will." + "It's also a shortened version of " + "William." + " Well-known Liams: actors Liam Neeson and Liam Hemsworth", meaning:"resolute protection", origin:"Irish"},
-        baby_names[5] = {name: "Isabella", sex: "F", url: "#", popularity: 16950, description: "A variation of Isabel, itself a variation of Elizabeth, meaning " + "devoted to God" + " in Hebrew. England, France, Portugal, and Hungary all had royal Isabellas in their courts. Nicknames: Bella, Izzy, Izzie. Well-known Isabellas: actress Isabella Rossellini.", meaning:"pledged to God", origin:"Hebrew"},
-        baby_names[6] = {name: "Ava", sex: "F", url: "#", popularity: 15586, description: "A variation of Eve. May be from the Latin " + '"' + "avis," + " meaning " + "bird." + " It could also be a short form of the name Chava (" + "life" + " or " + "living one" + "), the Hebrew form of Eve. It was popularized as a girls' name by actress Ava Gardner.", meaning:"life", origin:"Latin"},
+        baby_names[0] = {index: 1, name: "Emma", sex: "F", url: "#", popularity: 20799, description: 'An English name derived from the Old German for "whole" or "universal," popular since the 19th century. Well-known Emmas: the title character in Jane Austen' + 's Emma; actresses Emma Thompson, Emma Stone, and Emma Watson', meaning: "Universal", origin: "German", description: "", meaning: "", origin: ""},
+        baby_names[1] = {index: 2, name: "Olivia", sex: "F", url: "#", popularity: 19674, description: "First used by William Shakespeare for a character in Twelfth Night. It's a feminine form of Oliver, meaning " + "olive tree." + "Well-known Olivias: singer Olivia Newton-John; Olivia Pope in Scandal; the pig in the popular children's book series.", meaning: "olive tree", origin: "Greek"},
+        baby_names[2] = {index: 3, name: "Sophia", sex: "F", url: "#", popularity: 18490, description: "From the Greek for " + "wisdom." + " The name was used by European royalty in the Middle Ages. Common variants: Sophie, Sofia. Well-known Sophias: director Sophia Coppola; actresses Sophia Loren and Sofía Vergara.", meaning:"wisdom", origin:"Greek"},
+        baby_names[3] = {index: 4, name: "Noah", sex: "M", url: "#", popularity: 19144, description: "Derived from the Hebrew nōach (rest, comfort). The name is borne in the Bible by the patriarch commanded by God to build the ark, upon which he saved his family and two of each creature from the Great Flood. He is seen as the second progenitor of the human race", meaning: "Rest, Peace", origin: "Hebrew"},
+        baby_names[4] = {index: 5, name: "Liam", sex: "M", url: "#", popularity: 18342, description:"Strong-willed warrior and protector. It's a shorter form of the Irish name Uilliam, which originated from the Frankish Willahelm, meaning " + "helmet of will." + "It's also a shortened version of " + "William." + " Well-known Liams: actors Liam Neeson and Liam Hemsworth", meaning:"resolute protection", origin:"Irish"},
+        baby_names[5] = {index: 6, name: "Isabella", sex: "F", url: "#", popularity: 16950, description: "A variation of Isabel, itself a variation of Elizabeth, meaning " + "devoted to God" + " in Hebrew. England, France, Portugal, and Hungary all had royal Isabellas in their courts. Nicknames: Bella, Izzy, Izzie. Well-known Isabellas: actress Isabella Rossellini.", meaning:"pledged to God", origin:"Hebrew"},
+        baby_names[6] = {index: 7, name: "Ava", sex: "F", url: "#", popularity: 15586, description: "A variation of Eve. May be from the Latin " + '"' + "avis," + " meaning " + "bird." + " It could also be a short form of the name Chava (" + "life" + " or " + "living one" + "), the Hebrew form of Eve. It was popularized as a girls' name by actress Ava Gardner.", meaning:"life", origin:"Latin"},
         baby_names[7] = {name: "Mia", sex: "F", url: "#", popularity: 13442, description: "A short version of Maria popularized by actress Mia Farrow. Its Latin origins mean " + "mine" + "or " + "wished-for child." + " Other well-known Mias: Kate Winslet's daughter." + "", meaning:"", origin:"Latin"},
         baby_names[8] = {name: "Emily", sex: "F", url: "#", popularity: 12562, description: "", meaning: "", origin: ""},
         baby_names[9] = {name: "Abigail", sex: "F", url: "#", popularity: 11985, description: "", meaning: "", origin: ""},
@@ -545,7 +545,6 @@ var selectedBabyName = {};
         baby_names[533] = {name: "Rylan", sex: "N", url: "landingpage.php", popularity: 2418, description: "", meaning: "", origin: ""},
         baby_names[534] = {name: "Karter", sex: "N", url: "landingpage.php", popularity: 2418, description: "", meaning: "", origin: ""},
         baby_names[535] = {name: "Kai", sex: "N", url: "landingpage.php", popularity: 2418, description: "", meaning: "", origin: ""};
-
         /*
          * TODO: update popularity for baby_names[507] - [535]
          */
@@ -563,11 +562,11 @@ var boy_names = "";
 if ((baby_names[i].sex) === "M" || (baby_names[i].sex) === "N") {
 boy_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are no boy names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element                               
         d.id = "search"; // Append the text to <button>
         d.className = 'aligncenter';
@@ -579,12 +578,12 @@ var d = document.createElement("div"); // Create a <button> element
         var element = document.querySelector("main");
         element.appendChild(d);
         return boy_names;
-        }
+}
 
 function getGirlNames() {
 var sortGirlNames = girl_names(baby_names);
         document.querySelector(".btn_container").innerHTML = sortGirlNames;
-        }
+}
 function girl_names() {
 var girl_names = "";
         var list = "<ul>";
@@ -593,11 +592,11 @@ var girl_names = "";
 if ((baby_names[i].sex) === "F" || (baby_names[i].sex) === "N") {
 girl_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are no girl names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element                               // Append the text to <button>
         d.id = "search";
         d.setAttribute = ('class', 'aligncenter');
@@ -609,12 +608,12 @@ var d = document.createElement("div"); // Create a <button> element             
         var element = document.querySelector("main");
         element.appendChild(d);
         return girl_names;
-        }
+}
 
 function getTop50() {
 var sortTop50 = top_50_names(baby_names);
         document.querySelector(".btn_container").innerHTML = sortTop50;
-        }
+}
 
 function top_50_names() {
 var top_50_names = "";
@@ -624,11 +623,11 @@ var top_50_names = "";
 if ((baby_names[i].popularity) <= 10000) {
 top_50_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are no names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element                               // Append the text to <button>
         d.id = "search";
         d.setAttribute = ('class', 'aligncenter');
@@ -640,12 +639,12 @@ var d = document.createElement("div"); // Create a <button> element             
         var element = document.querySelector("main");
         element.appendChild(d);
         return top_50_names;
-        }
+}
 
 function getGenderNeutral() {
 var sortGenderNeutral = neutral_names(baby_names);
         document.querySelector(".btn_container").innerHTML = sortGenderNeutral;
-        }
+}
 
 function neutral_names() {
 var neutral_names = "";
@@ -655,11 +654,11 @@ var neutral_names = "";
 if ((baby_names[i].sex) === "N") {
 neutral_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are neutral names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element            
         d.id = "search";
         d.setAttribute = ('class', 'aligncenter');
@@ -671,44 +670,84 @@ var d = document.createElement("div"); // Create a <button> element
         var element = document.querySelector("main");
         element.appendChild(d);
         return neutral_names;
-        }
+}
 
 function getDescription(babyNameIndex) {
 selectedBabyName = baby_names[babyNameIndex];
         var xmlhttp;
         if (window.XMLHttpRequest)
-{// code for IE7+, Firefox, Chrome, Opera, Safari
-xmlhttp = new XMLHttpRequest();
-}
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+                }
 else
-{// code for IE6, IE5
-xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-}
+        {// code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
 xmlhttp.onreadystatechange = function ()
-{
-if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
-{
-document.getElementsByTagName("BODY")[0].innerHTML = xmlhttp.responseText;
-        nameDescription();
-}
-}
+        {
+        if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
+                {
+                document.getElementsByTagName("BODY")[0].innerHTML = xmlhttp.responseText;
+                        nameDescription();
+                        }
+        }
 xmlhttp.open("GET", "/description.php", true);
         xmlhttp.send();
-        }
+}
 function nameDescription() {
-if (selectedBabyName.sex === "G"){
+if (selectedBabyName.sex === "F"){
 document.getElementsByClassName('button2')[0].innerHTML = "Return to Girl Names";
         document.getElementsByClassName('button2')[0].onclick = getGirlNames;
-        }else if (selectedBabyName.sex === "N"){
+} else if (selectedBabyName.sex === "N"){
 document.getElementsByClassName('button2')[0].innerHTML = "Return to Gender Neutral Names";
         document.getElementsByClassName('button2')[0].onclick = getGenderNeutral;
-        }else if (selectedBabyName.popularity <= 10000){
+} else if (selectedBabyName.popularity <= 10000){
 document.getElementsByClassName('button2')[0].innerHTML = "Return to Top 50 Names";
         document.getElementsByClassName('button2')[0].onclick = getTop50;
-        }
+}
 document.getElementsByTagName("h1")[0].innerHTML = selectedBabyName.name;
         document.getElementsByClassName('description')[0].innerHTML = selectedBabyName.description;
         document.getElementsByClassName('meaning')[0].innerHTML = selectedBabyName.meaning;
         document.getElementsByClassName('origin')[0].innerHTML = selectedBabyName.origin;
+}
+function addName() {
+    var selectedName = JSON.parse(localStorage.getItem('selectedName')) || [];
+    selectedName.push(selectedBabyName.name);
+    localStorage.setItem('selectedName', JSON.stringify(selectedName) );
+    console.log(JSON.parse(localStorage.getItem(selectedName)));
         }
 
+function viewNames(){
+    var selectedName = JSON.parse(localStorage.getItem('selectedName'));
+    if (selectedName){
+        
+        var names = "<ul>";
+        selectedName.forEach(function(name){
+            names += "<li>" + name + "</li>";
+        });
+        names += "</ul>";
+        document.getElementsByClassName('babyDetails')[0].innerHTML= names;
+        document.getElementsByTagName("h1")[0].innerHTML = "Favorite Names List";
+        document.getElementsByClassName('button4')[0].innerHTML = "Delete name from list";
+        document.getElementsByClassName('button4')[0].onclick = deleteName;
+        document.getElementsByClassName('button4')[0].style.background = "#ff0000";
+}
+}
+        
+//The following works, but returns the full object array. I am still working on getting just the name to return
+/*function addName() {
+        localStorage.setItem(selectedBabyName.index, JSON.stringify(selectedBabyName));
+        console.log(JSON.parse(localStorage.getItem(selectedBabyName)));
+        //var keyname = 'index' + localStorage.length;
+        //localStorage.setItem(keyname,JSON.stringify(selectedBabyName)); 
+        //console.log(JSON.parse(localStorage.getItem('keyname')));
+}
+
+function viewNames(){
+    for (var i = 1; i < localStorage.length; ++i) {
+    console.log(JSON.parse(localStorage.getItem(selectedBabyName.index = (i))));
+    }
+}*/
+function deleteName() {
+    
+}

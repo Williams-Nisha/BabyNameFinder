@@ -22,7 +22,7 @@
                 </h1>
 
                 <div class="btn_container aligncenter">
-                    <div class="favorites" onclick="viewNames()"><p class="txt">List</p></div>
+                    <div id="favorites" onclick="viewNames()"><p class="txt">List</p></div>
                     <div class="clearfloat"></div>
                     <div class="babyDetails"><br>
                         <h4>Description:</h4> <span class="description"></span><br>
