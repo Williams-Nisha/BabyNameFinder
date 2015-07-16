@@ -203,7 +203,17 @@ li{
 .logobtn {
     margin: 0 auto;
     padding-top: 20px;
+    width: 250px;
+    height: 250px;  
+    -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s, height 1s;
 }
+
+.logobtn:hover {
+    width: 300px;
+    height: 300px;
+}
+
 .lngh1 {
     font-size: 1.5em;
     color:#fff;
