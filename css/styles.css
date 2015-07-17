@@ -19,7 +19,7 @@ and open the template in the editor.
 	
 }
 .nav-link {
-	float:left;
+	//float:left; removed for review
 	*display:inline;
 	zoom:1;
 }
