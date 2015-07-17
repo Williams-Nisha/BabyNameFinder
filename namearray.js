@@ -222,7 +222,7 @@ var selectedName = JSON.parse(localStorage.getItem('selectedName')) || [];
 function viewNames(){
 var selectedName = JSON.parse(localStorage.getItem('selectedName'));
         if (selectedName){
-var names ="<form name='favoriteNames'>";
+var names = "<form name='favoriteNames'>";
         selectedName.forEach(function(name){
         names += "<input type='radio' name='name' value=" + name + ">" + name + "<br>";
         });
@@ -254,11 +254,15 @@ var names ="<form name='favoriteNames'>";
 
 function deleteName(){
     var nameForm = document.querySelector('form');
-    for (var i = 0; i < nameForm.length; i++ ) {
-            if (nameForm[i].checked == true) {
-                localStorage.removeItem(name);
-            }
-    }
+    for (var i = 0; i < nameForm.length; i++) {
+        if (nameForm[i].checked == true) {
+                if (nameForm[i] == localStorage.selectedName[i]){
+                    localStorage.removeItem(selectedName[i]); //remove item
+            } else {
+            console.log('There are no names to delete.');
+        }
+        }
+    }   
 
 }
 
