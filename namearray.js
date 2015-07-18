@@ -63,11 +63,11 @@ var boy_names = "";
 if ((baby_names[i].sex) === "M" || (baby_names[i].sex) === "N") {
 boy_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are no boy names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element                               
         d.id = "search"; // Append the text to <button>
         d.className = 'aligncenter';
@@ -79,12 +79,12 @@ var d = document.createElement("div"); // Create a <button> element
         var element = document.querySelector("main");
         element.appendChild(d);
         return boy_names;
-        }
+}
 
 function getGirlNames() {
 var sortGirlNames = girl_names(baby_names);
         document.querySelector(".btn_container").innerHTML = sortGirlNames;
-        }
+}
 function girl_names() {
 var girl_names = "";
         var list = "<ul>";
@@ -93,11 +93,11 @@ var girl_names = "";
 if ((baby_names[i].sex) === "F" || (baby_names[i].sex) === "N") {
 girl_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are no girl names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element                               // Append the text to <button>
         d.id = "search";
         d.setAttribute = ('class', 'aligncenter');
@@ -109,12 +109,12 @@ var d = document.createElement("div"); // Create a <button> element             
         var element = document.querySelector("main");
         element.appendChild(d);
         return girl_names;
-        }
+}
 
 function getTop15() {
 var sortTop15 = top_15_names(baby_names);
         document.querySelector(".btn_container").innerHTML = sortTop15;
-}
+        }
 
 function top_15_names() {
 var top_15_names = "";
@@ -124,11 +124,11 @@ var top_15_names = "";
 if ((baby_names[i].popularity) <= 15000) {
 top_15_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are no names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element                               // Append the text to <button>
         d.id = "search";
         d.setAttribute = ('class', 'aligncenter');
@@ -140,12 +140,12 @@ var d = document.createElement("div"); // Create a <button> element             
         var element = document.querySelector("main");
         element.appendChild(d);
         return top_15_names;
-}
+        }
 
 function getGenderNeutral() {
 var sortGenderNeutral = neutral_names(baby_names);
         document.querySelector(".btn_container").innerHTML = sortGenderNeutral;
-        }
+}
 
 function neutral_names() {
 var neutral_names = "";
@@ -155,11 +155,11 @@ var neutral_names = "";
 if ((baby_names[i].sex) === "N") {
 neutral_names += '<li><a href="' + baby_names[i].url + '" onclick="getDescription(' + i + ')">' +
         baby_names[i].name + '</a></li><br>';
-} else {
+        } else {
 console.log("There are neutral names available.");
-}
+        }
 list = "</ul>";
-}
+        }
 var d = document.createElement("div"); // Create a <button> element            
         d.id = "search";
         d.setAttribute = ('class', 'aligncenter');
@@ -171,60 +171,60 @@ var d = document.createElement("div"); // Create a <button> element
         var element = document.querySelector("main");
         element.appendChild(d);
         return neutral_names;
-        }
+}
 
 function getDescription(babyNameIndex) {
 selectedBabyName = baby_names[babyNameIndex];
         var xmlhttp;
         if (window.XMLHttpRequest)
-{// code for IE7+, Firefox, Chrome, Opera, Safari
-xmlhttp = new XMLHttpRequest();
-}
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+                }
 else
-{// code for IE6, IE5
-xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-}
+        {// code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
 xmlhttp.onreadystatechange = function ()
-{
-if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
-{
-document.getElementsByTagName("BODY")[0].innerHTML = xmlhttp.responseText;
-        nameDescription();
-}
-}
+        {
+        if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
+                {
+                document.getElementsByTagName("BODY")[0].innerHTML = xmlhttp.responseText;
+                        nameDescription();
+                        }
+        }
 xmlhttp.open("GET", "/description.php", true);
         xmlhttp.send();
-        }
+}
 function nameDescription() {
 if (selectedBabyName.sex === "F"){
 document.getElementsByClassName('button2')[0].innerHTML = "Return to Girl Names";
         document.getElementsByClassName('button2')[0].onclick = getGirlNames;
-        } else if (selectedBabyName.sex === "N"){
+} else if (selectedBabyName.sex === "N"){
 document.getElementsByClassName('button2')[0].innerHTML = "Return to Gender Neutral Names";
         document.getElementsByClassName('button2')[0].onclick = getGenderNeutral;
-} else if (selectedBabyName.popularity <= 10000){
+        } else if (selectedBabyName.popularity <= 10000){
 document.getElementsByClassName('button2')[0].innerHTML = "Return to Top 15 Names";
         document.getElementsByClassName('button2')[0].onclick = getTop15;
-}
+        }
 document.getElementsByTagName("h1")[0].innerHTML = selectedBabyName.name;
         document.getElementsByClassName('description')[0].innerHTML = selectedBabyName.description;
         document.getElementsByClassName('meaning')[0].innerHTML = selectedBabyName.meaning;
         document.getElementsByClassName('origin')[0].innerHTML = selectedBabyName.origin;
-        }
+}
 function addName() {
 var selectedName = JSON.parse(localStorage.getItem('selectedName')) || [];
         selectedName.push(selectedBabyName.name);
         localStorage.setItem('selectedName', JSON.stringify(selectedName));
         console.log(JSON.parse(localStorage.getItem(selectedName)));
         document.getElementsByClassName('txt')[0].innerHTML = "View List";
-}
+        }
 
 function viewNames(){
 var selectedName = JSON.parse(localStorage.getItem('selectedName'));
         if (selectedName){
 var names = "<form name='favoriteNames'>";
         selectedName.forEach(function(name){
-        names += "<input type='radio' name='name' value=" + name + ">" + name + "<br>";
+        names += "<input type='checkbox' name='name' value=" + name + ">" + name + "<br>";
         });
         names += "</form>";
         document.getElementsByClassName('babyDetails')[0].innerHTML = names;
@@ -234,7 +234,7 @@ var names = "<form name='favoriteNames'>";
         document.getElementsByClassName('button4')[0].style.background = "#ff0000";
         document.getElementsByClassName('txt')[0].innerHTML = "View List";
         document.getElementsByTagName("h4")[0].innerHTML = "These are your favorite names.";
-        }
+}
 }
 
 //The following works, but returns the full object array. I am still working on getting just the name to return
@@ -253,16 +253,17 @@ var names = "<form name='favoriteNames'>";
  }*/
 
 function deleteName(){
-    var nameForm = document.querySelector('form');
-    for (var i = 0; i < nameForm.length; i++) {
-        if (nameForm[i].checked == true) {
-                if (nameForm[i] == localStorage.selectedName[i]){
-                    localStorage.removeItem(selectedName[i]); //remove item
-            } else {
-            console.log('There are no names to delete.');
-        }
-        }
-    }   
-
+var nameForm = document.querySelector('form');
+        for (var i = 0; i < nameForm.length; i++) {
+if (nameForm[i].checked == true) {
+var selectedName = JSON.parse(localStorage.selectedName);
+        var index = selectedName.indexOf(nameForm[i].value);
+        selectedName.splice(index, 1);
+        localStorage.setItem('selectedName', JSON.stringify(selectedName));
+        viewNames();
+} else {
+console.log('There are no names to delete.');
+}
+}
 }
 
